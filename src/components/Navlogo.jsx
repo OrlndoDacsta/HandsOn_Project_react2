@@ -1,6 +1,7 @@
+import "../style.css";
 const Navlogo = ({ logo }) => {
   return (
-    <div>
+    <div className="navbar-logo">
       <img src={logo} alt="logo" />
     </div>
   );

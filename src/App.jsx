@@ -19,8 +19,8 @@ const App = () => {
   return (
     <div>
       <div className="navbar-wrapper">
+        <Navlogo logo={logoImg} />
         <div className="navbar-container">
-          <Navlogo logo={logoImg} />
           <Navlist data={linkList} handleRedirect={handleRedirect} />
           <button onClick={handleLogin}>Login</button>
         </div>
